@@ -320,9 +320,9 @@
                     box-shadow: 1px 1px 1px gray;
                     border: solid black;
                 }
-                .texto-colaboradores-id {
+                .texto-colaboradores-pesquisadores {
                     font-size: 1rem;
-                    margin-bottom: .1%;
+                    margin-bottom: .3rem;
                     color: #333;
                 }
                 .texto-colaboradores:hover {

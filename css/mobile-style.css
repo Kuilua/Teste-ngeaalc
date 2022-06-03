@@ -268,6 +268,34 @@
                    border-radius: 5px;
                    float: center;
                }
+               /* PARTE 2 - Trio de elementos da Pagina Inicial */
+               .container-mobile-1 {
+                   display: inline-block;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-2 {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-3 {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-calendario {
+                   display: inline-block;
+                   margin-bottom: 3rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
                /* FIM - Trio de elementos da Pagina Inicial */
                /* MEMBROS - OS 4 CAVALEIROS KKK */
                /* MEMBROS - PESQUISADORES */
@@ -297,13 +325,13 @@
                    text-decoration: underline #e8b16e;
                }
                .margem-colaboradores {
-                   margin-top: -15px;
+                   margin-top: -0.5rem;
                }
                .container-colaboradores-mobile {
                    display: inline-block;
                    margin-bottom: 2rem;
-                   margin-left: 2.5rem;
-                   margin-right: 2.5rem;
+                   margin-inline-start: 2.5rem;
+                   margin-inline-end: 2.5rem;
                    text-align: start;
                }
                .container-colaboradores-mobile-2 {
@@ -320,33 +348,12 @@
                    margin-bottom: .5rem;
                    text-align: start;
                }
-               .container-mobile-1 {
-                   display: inline-block;
-                   align-items: center;
-                   justify-content: center;
-                   justify-items: center;
+               .texto-colaboradores-mobile {
+                   font-size: 1rem;
+                   margin-bottom: .3rem;
+                   color: #333;
                }
-               .container-mobile-2 {
-                   display: inline-block;
-                   margin-bottom: 2rem;
-                   align-items: center;
-                   justify-content: center;
-                   justify-items: center;
-               }
-               .container-mobile-3 {
-                   display: inline-block;
-                   margin-bottom: 2rem;
-                   align-items: center;
-                   justify-content: center;
-                   justify-items: center;
-               }
-               .container-mobile-calendario {
-                   display: inline-block;
-                   margin-bottom: 3rem;
-                   align-items: center;
-                   justify-content: center;
-                   justify-items: center;
-               }
+               /* FIM - MEMBROS - PESQUISADORES */
                /* MEMBROS - ESTUDANTES */
                /* MEMBROS - TECNICOS */
                /* MEMBROS - INTERNACIONAIS */
