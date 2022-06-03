@@ -389,7 +389,7 @@
                    color: #ffffff;
                    border-bottom: solid #333;
                }
-               .texto-contato-1 {
+               .texto-contato-mobile-1 {
                    font-size: 1rem;
                    display: inline-block;
                    text-align: center;
@@ -399,16 +399,15 @@
                    margin-left: 1rem;
                    color: #ffffff;
                }
-               .texto-contato-2 {
+               .texto-contato-mobile-2 {
                    font-size: .7rem;
-                   display: inline-block;
+                   display: inline-grid;
                    text-align: center;
                    align-items: center;
-                   margin-inline-end: 21rem;
-                   margin-top: 3rem;
+                   margin-top: 0;
                    color: #ffffff;
                }
-               .texto-contato-2:hover {
+               .texto-contato-mobile-2:hover {
                    opacity: 100%;
                    background-color: #e48d68;
                    border-radius: 5px;

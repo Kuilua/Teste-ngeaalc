@@ -411,7 +411,7 @@
                     color: #ffffff;
                     border-bottom: solid #333;
                 }
-                .texto-contato-1 {
+                .texto-contato-pc-1 {
                     font-size: 1.7rem;
                     display: inline-block;
                     text-align: center;
@@ -419,7 +419,7 @@
                     margin-bottom: 1.5em;
                     color: #ffffff;
                 }
-                .texto-contato-2 {
+                .texto-contato-pc-2 {
                     font-size: 1.7rem;
                     display: inline-block;
                     text-align: center;
@@ -428,7 +428,7 @@
                     margin-top: 3rem;
                     color: #ffffff;
                 }
-                .texto-contato-2:hover {
+                .texto-contato-pc-2:hover {
                     opacity: 100%;
                     background-color: #e48d68;
                     border-radius: 5px;
