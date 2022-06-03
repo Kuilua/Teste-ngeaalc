@@ -98,11 +98,11 @@
                .logo-ngeaalc {
                    display: inline-table;
                }
-               .apagar-texto-rodape {
+               .apagar-elemento-mobile {
                    display: none;
                    opacity: 0%;
                }
-               .mostrar-texto-rodape {
+               .mostrar-elemento-mobile {
                    display: inline-block;
                    align-items: center;
                    justify-content: center;
@@ -313,6 +313,12 @@
                    justify-content: center;
                    justify-items: center;
                    text-align: center;
+               }
+               .container-colaboradores-mobile-dentro {
+                   display: inline-block;
+                   margin-top: .5rem;
+                   margin-bottom: .5rem;
+                   text-align: start;
                }
                .container-mobile-1 {
                    display: inline-block;
