@@ -1,0 +1,424 @@
+           /* Cor original da pagina - background-color: rgb(244, 247, 250); */
+           
+           .menu-mobile {
+               display: none;
+           }
+           
+           @media (max-width: 820px) and (max-height: 1180px) {
+               * {
+                   display: -ms-flexbox;
+                   margin: 0;
+                   padding: 0;
+                   background-blend-mode: darken;
+               }
+               header {
+                   display: -ms-flexbox;
+                   align-items: center;
+                   background-image: none;
+                   background-color: #333;
+               }
+               body {
+                   display: -ms-flexbox;
+                   margin: 0;
+                   align-items: center;
+                   justify-content: center;
+                   position: relative;
+                   background-image: none;
+                   background-color: rgb(168, 24, 24);
+               }
+               .inicio-3-inline-mobile {
+                   display: inline-block;
+                   position: center;
+                   width: 36rem;
+                   height: 35rem;
+               }
+               /* MENU MOBILE */
+               .menu-mobile {
+                   display: block;
+               }
+               .centralizar-texto-corpo-mobile {
+                   justify-items: center;
+                   background-color: #333;
+               }
+               /* Style the navigation menu */
+               .topnav {
+                   width: 100vmin;
+                   overflow: hidden;
+                   background-color: rgb(51, 51, 51);
+                   position: relative;
+                   list-style: none;
+               }
+               /* Hide the links inside the navigation menu (except for logo/home) */
+               .topnav #myLinks #myLinks2 {
+                   display: none;
+               }
+               /* Style navigation menu links */
+               .topnav a {
+                   color: white;
+                   padding: 0;
+                   font-size: 18px;
+                   display: block;
+               }
+               /* Style the hamburger menu */
+               .topnav a.icon {
+                   background: rgb(80, 80, 80);
+                   display: flex;
+                   position: relative;
+                   right: 0;
+                   top: 0;
+               }
+               /* Add a grey background color on mouse-over */
+               .topnav a:hover {
+                   background-color: rgba(221, 221, 221, 0.924);
+                   color: rgb(0, 0, 0);
+               }
+               /* Style the active link (or home/logo) */
+               .active {
+                   background-color: #c05605;
+                   color: white;
+                   font-size: 20px;
+                   padding: 5px;
+               }
+               /* FIM - MENU MOBILE */
+               .mobile-corpo {
+                   display: none;
+               }
+               .menu-h-mobile {
+                   margin-top: 1rem;
+                   position: relative;
+                   align-items: center;
+                   background-color: #888888;
+                   border-radius: 15px;
+                   list-style: none;
+               }
+               /* SUMIR COM AS LOGOS, TEXTOS RODAPE E MENU VERSAO SITE */
+               .logo-ngeaalc {
+                   display: inline-table;
+               }
+               .apagar-texto-rodape {
+                   display: none;
+                   opacity: 0%;
+               }
+               .mostrar-texto-rodape {
+                   display: inline-block;
+                   align-items: center;
+                   justify-content: center;
+               }
+               .redes-sociais-mobile {
+                   color: #ffffff;
+                   padding: .4rem;
+                   font-size: 2rem;
+                   margin-inline-start: .5rem;
+                   margin-inline-end: .5rem;
+                   font-style: none;
+                   list-style: none;
+               }
+               .apagar-texto-mobile {
+                   margin-top: 2vh;
+                   display: none;
+               }
+               .apagar-elementos-mobile {
+                   display: none;
+               }
+               .img-eventos-mobile {
+                   height: 200px;
+                   align-self: center;
+                   justify-self: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .logos {
+                   width: 0;
+                   height: 0;
+                   visibility: hidden;
+               }
+               .dp-menu {
+                   display: none;
+               }
+               .menu-principal {
+                   width: 0;
+                   height: 0;
+                   visibility: hidden;
+               }
+               .topo {
+                   visibility: hidden;
+               }
+               /* FIM - SUMIR COM AS LOGOS */
+               /* FIM - TEXTO DO CORPO */
+               .texto-titulo {
+                   display: grid;
+                   font-size: 3rem;
+                   color: #c85314;
+                   text-decoration: underline #e8b16e;
+               }
+               .texto-corpo {
+                   font-size: larger;
+               }
+               .titulo-principal-1 {
+                   margin-left: 5rem;
+               }
+               .texto-titulo-mobile {
+                   color: #c85314;
+                   display: grid;
+                   margin-top: 2rem;
+                   margin-bottom: 1rem;
+                   font-size: 2.5rem;
+                   font-family: 'roboto';
+                   align-items: center;
+                   text-align: center;
+                   position: relative;
+                   text-decoration: underline #e8b16e;
+               }
+               .texto-corpo-mobile {
+                   color: #333;
+                   display: grid;
+                   margin-top: 2rem;
+                   margin-bottom: 1rem;
+                   font-size: 2rem;
+                   font-family: 'roboto';
+                   align-items: left;
+                   text-align: center;
+                   position: relative;
+               }
+               /* FIM - TEXTO DO CORPO */
+               /* FIM - RODAPE + TEXTO DE RODAPE */
+               .menu-r {
+                   display: flex;
+                   position: relative;
+                   align-items: center;
+                   justify-content: space-between;
+               }
+               .menu-r-texto {
+                   display: none;
+               }
+               .texto-rodape {
+                   display: inline-flex;
+               }
+               /* FIM - RODAPE + TEXTO DE RODAPE */
+               /* FIM - SUMIR COM AS LOGOS */
+               #campo-titulo {
+                   display: contents;
+                   align-items: center;
+                   justify-items: center;
+                   /* text-align: center; */
+                   /* align-items: center; */
+                   margin-bottom: 0.5em;
+                   color: rgb(255, 255, 255);
+                   display: contents;
+               }
+               .caixa {
+                   display: contents;
+                   background-color: #333;
+                   margin: 3.5%;
+                   margin-left: 0;
+                   margin-right: 0;
+                   text-align: center;
+                   align-items: center;
+                   border: box-shadow 2px 2px 2px #333;
+               }
+               .grupo .campo .campo-label {
+                   display: inline-flex;
+                   align-items: flex-start;
+                   justify-items: flex-start;
+               }
+               .texto-nome-principal-2 {
+                   font-style: 'roboto';
+                   font-size: 3rem;
+                   color: #c85314;
+                   font-family: 'roboto';
+               }
+               .nome-site-2 {
+                   color: #d1e1fb;
+                   align-items: center;
+                   text-align: center;
+               }
+               /* Trio de elementos da Pagina Inicial */
+               .inicio-3-inline {
+                   display: grid;
+                   position: center;
+                   margin-bottom: 5rem;
+                   margin-top: 2rem;
+                   border-radius: 15px;
+               }
+               .inicio-3-inline-esquerda {
+                   width: 30rem;
+                   height: 30rem;
+                   float: center;
+                   justify-content: center;
+                   border-radius: 5px;
+                   float: center;
+               }
+               .inicio-3-inline-centro {
+                   margin-top: -3px;
+                   width: 25rem;
+                   height: 30rem;
+                   justify-content: center;
+                   background-color: #e8b16e;
+                   border-radius: 5px;
+                   float: center;
+               }
+               .inicio-3-inline-direita {
+                   width: 30rem;
+                   height: 30rem;
+                   float: center;
+                   justify-content: center;
+                   border-radius: 5px;
+                   float: center;
+               }
+               /* FIM - Trio de elementos da Pagina Inicial */
+               /* MEMBROS - OS 4 CAVALEIROS KKK */
+               /* MEMBROS - PESQUISADORES */
+               .membros-caixa-mobile {
+                   border-radius: 5px;
+                   margin-top: 1rem;
+                   display: inline-grid;
+                   text-align: left;
+               }
+               .img-colaboradores-mobile {
+                   margin-top: 1rem;
+                   margin-bottom: 1.5rem;
+                   margin-right: 2rem;
+                   height: 25rem;
+                   width: 20rem;
+                   text-align: center;
+               }
+               .texto-membros-mobile {
+                   color: #c85314;
+                   display: grid;
+                   margin-top: 2rem;
+                   margin-bottom: 1rem;
+                   font-size: 2.5rem;
+                   font-family: 'roboto';
+                   align-items: center;
+                   text-align: center;
+                   position: relative;
+                   text-decoration: underline #e8b16e;
+               }
+               .margem-colaboradores {
+                   margin-top: -15px;
+               }
+               .container-mobile-1 {
+                   display: inline-block;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-2 {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-3 {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               .container-mobile-calendario {
+                   display: inline-block;
+                   margin-bottom: 3rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
+               /* MEMBROS - ESTUDANTES */
+               /* MEMBROS - TECNICOS */
+               /* MEMBROS - INTERNACIONAIS */
+               /* FIM - MEMBROS - OS 4 CAVALEIROS KKK */
+               /* PAGINA APRESENTAÇÃO */
+               .texto-fundadores {
+                   font-size: 1.5rem;
+                   margin-top: .5rem;
+                   margin-left: 1.5rem;
+                   color: #333;
+               }
+               .texto-apresentacao-mobile {
+                   align-items: center;
+                   display: inline-grid;
+                   font-size: 1.5rem;
+                   margin: 1rem;
+               }
+               .titulo-principal-mobile {
+                   position: relative;
+                   font-size: 5rem;
+                   display: grid;
+                   justify-content: center;
+                   align-items: center;
+                   z-index: 0;
+                   color: #333;
+                   margin-top: 3%;
+                   font-family: 'ROBOTO';
+                   color: #c85314;
+               }
+               /* FIM - PAGINA APRESENTAÇÃO */
+               /* PAGINA CONTATO */
+               .caixa-contato-dentro {
+                   font-size: 1.5rem;
+                   border-radius: 5px;
+                   margin-top: 1.5rem;
+                   margin-bottom: .5rem;
+                   display: inline-block;
+                   text-align: left;
+               }
+               .id-contato {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   color: #333;
+                   justify-content: space-between;
+               }
+               .caixa-contato {
+                   background-color: #b14c09;
+                   margin: 2.5rem;
+                   margin-bottom: 1rem;
+                   border-radius: 10px;
+                   text-align: center;
+                   align-items: center;
+                   border: box-shadow 2px 2px 2px #333;
+                   display: block;
+               }
+               .texto-contato-titulo {
+                   font-size: 1.3rem;
+                   display: block;
+                   text-align: center;
+                   align-items: center;
+                   margin-bottom: 0.5em;
+                   margin-top: 0.5em;
+                   color: #ffffff;
+                   border-bottom: solid #333;
+               }
+               .texto-contato-1 {
+                   font-size: 1rem;
+                   display: inline-block;
+                   text-align: center;
+                   align-items: center;
+                   margin-bottom: 1.5em;
+                   margin: 0;
+                   margin-left: 1rem;
+                   color: #ffffff;
+               }
+               .texto-contato-2 {
+                   font-size: .7rem;
+                   display: inline-block;
+                   text-align: center;
+                   align-items: center;
+                   margin-inline-end: 21rem;
+                   margin-top: 3rem;
+                   color: #ffffff;
+               }
+               .texto-contato-2:hover {
+                   opacity: 100%;
+                   background-color: #e48d68;
+                   border-radius: 5px;
+               }
+               .img-contato {
+                   margin: 0;
+                   margin-left: 1rem;
+                   height: 9rem;
+                   width: 14rem;
+                   justify-content: space-between;
+               }
+               /* FIM - PAGINA CONTATO */
+           }

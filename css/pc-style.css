@@ -1,0 +1,437 @@
+            /* CABEÇA DA PAGINA INICIAL  -  OQ FICA OU NAO NAS PAGINAS NO PC */
+            
+            @media (min-width: 726px) {
+                body {
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    align-items: center;
+                    display: flexbox;
+                    background-image: url(../img/446.jpg);
+                    background-color: rgb(126, 65, 25);
+                }
+                body::-webkit-scrollbar {
+                    width: 15px;
+                    /* width of the entire scrollbar */
+                }
+                body::-webkit-scrollbar-track {
+                    background-color: rgb(240, 169, 102);
+                    /* color of the tracking area */
+                }
+                body::-webkit-scrollbar-thumb {
+                    background-color: #eaf2f2;
+                    /* color of the scroll thumb */
+                    border-radius: 10px;
+                    /* roundness of the scroll thumb */
+                    border: 4px solid rgb(240, 169, 102);
+                    /* creates padding around scroll thumb */
+                }
+                #titulo {
+                    font-size: 15vmin;
+                }
+                .menu-principal {
+                    margin: 0;
+                    padding: 0;
+                    z-index: 9;
+                }
+                .fundo-inicio {
+                    margin: 0;
+                    padding: 0;
+                    background-image: url(../img/446.jpg);
+                    background-color: rgb(128, 69, 52);
+                }
+                .nome-site {
+                    margin-top: 2%;
+                    color: #d1e1fb;
+                    font-size: xx-large;
+                    align-items: center;
+                    text-align: center;
+                    width: 70vw;
+                }
+                .centralizar-texto-corpo {
+                    display: flexbox;
+                    margin-inline: 15%;
+                    width: 70vw;
+                    background-color: rgb(244, 247, 250);
+                }
+                .centralizar-texto-corpo-inicio {
+                    display: flexbox;
+                    margin-inline: 3vw;
+                    width: 93vw;
+                    background-color: rgb(244, 247, 250);
+                }
+                .apagar-elementos-pc {
+                    display: none;
+                }
+                .img-colaboradores {
+                    border-radius: 5px;
+                    width: 150;
+                    height: 200;
+                }
+                .mobile-corpo {
+                    display: inline-flex;
+                    justify-items: center;
+                    position: relative;
+                    width: min-content;
+                    height: min-content;
+                    text-align: center;
+                    align-items: center;
+                }
+                .logos {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin: 0;
+                    /* background-image: url(../img/background\ -\ 4.png);
+                    background-repeat: round; */
+                    background-color: rgb(244, 247, 250);
+                }
+                /* Logo da Pagina Principal Inicial */
+                .logo-ngeaalc {
+                    margin-top: 5vh;
+                    width: 222px;
+                    height: 117px;
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    margin-right: 5rem;
+                }
+                .logo-ngeaalc:hover {
+                    opacity: 90%;
+                }
+                .container1 {
+                    display: block;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+                .container2 {
+                    display: block;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+                .container3 {
+                    display: block;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+                .container-apresentacao {
+                    display: block;
+                    align-items: center;
+                    margin-left: 4rem;
+                    margin-right: 4rem;
+                }
+                /* Trio de elementos da Pagina Inicial */
+                .inicio-3-inline {
+                    display: inline-block;
+                    position: center;
+                    margin-left: 10vh;
+                    margin-right: -15vh;
+                    margin-bottom: 10vh;
+                    margin-top: 2vh;
+                    border-radius: 15px;
+                }
+                .inicio-3-inline-ajuste {
+                    display: inline-flex;
+                    width: 40vmin;
+                    height: 40vmin;
+                }
+                .inicio-3-inline-ajuste-2 {
+                    width: 40vmin;
+                    height: 40vmin;
+                    justify-content: space-evenly;
+                }
+                .inicio-3-inline-ajuste-3 {
+                    margin-top: 5%;
+                    width: 65vmin;
+                    height: 35vmin;
+                    justify-content: space-evenly;
+                }
+                .inicio-3-inline-esquerda {
+                    width: 40vh;
+                    height: 40vh;
+                    float: inline-start;
+                    background-color: #fbdbbb;
+                    background-color: #c85314;
+                    border-radius: 5px;
+                }
+                .inicio-3-inline-centro {
+                    margin-top: -3px;
+                    width: 40vh;
+                    height: 40vh;
+                    justify-content: center;
+                    background-color: #e8b16e;
+                    border-radius: 5px;
+                }
+                .inicio-3-inline-direita {
+                    width: 0vh;
+                    height: 37vh;
+                    float: inline-end;
+                    background-color: #c85314;
+                    border-radius: 5px;
+                }
+                /* FIM - Trio de elementos da Pagina Inicial */
+                /* TEXTOS DAS PAGINAS - TITULOS/CORPO/OUTROS */
+                .titulo-principal-inicio-pc {
+                    position: relative;
+                    font-size: 4rem;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 0;
+                    color: #333;
+                    margin-top: 3%;
+                    margin-left: -11rem;
+                    font-family: 'ROBOTO';
+                    color: #c85314;
+                }
+                .texto-titulo-pc {
+                    color: #c85314;
+                    display: grid;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    font-size: 3.5rem;
+                    font-family: 'roboto';
+                    align-items: center;
+                    text-align: center;
+                    position: relative;
+                }
+                .texto-corpo-pc {
+                    color: #333;
+                    display: grid;
+                    margin: 2rem;
+                    font-size: 2.5rem;
+                    align-items: center;
+                    text-align: center;
+                    position: relative;
+                }
+                /* FIM - TEXTOS DAS PAGINAS - TITULOS/CORPO/OUTROS */
+                /* PAGINA MEMBROS E AFINS */
+                .texto-membros {
+                    color: #c85314;
+                    display: grid;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    font-size: 2.5rem;
+                    font-family: 'roboto';
+                    align-items: center;
+                    text-align: center;
+                    position: relative;
+                }
+                .texto-menu-membros {
+                    color: #ffffff;
+                    font-size: large;
+                    padding: 15px;
+                    text-align: center;
+                    position: relative;
+                }
+                .icone-menu-membros {
+                    color: #ffffff;
+                    padding: 12px;
+                    text-align: center;
+                    position: relative;
+                }
+                /* PAGINA MEMBROS - PESQUISADORES/ESTUDANTES/TECNICOS */
+                /* PAGINA PESQUISADORES */
+                .titulo-corpo-doscente {
+                    margin: 50px;
+                    text-align: center;
+                    align-items: center;
+                    text-decoration: #26529D;
+                }
+                .caixa-membros-internacionais {
+                    display: inline-block;
+                    margin-left: 2.5vh;
+                    margin-right: 2.5vh;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: relative;
+                }
+                .id-colaboradores {
+                    display: inline-block;
+                    margin-bottom: 2rem;
+                    color: #333;
+                    justify-content: space-between;
+                }
+                .id-colaboradores-texto {
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-top: 2.5rem;
+                    display: inline-block;
+                    text-align: left;
+                }
+                .id-colaboradores-texto-1 {
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-top: 1.3rem;
+                    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+                    display: inline-block;
+                    text-align: left;
+                }
+                .id-colaboradores-texto-2 {
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-top: 3.1rem;
+                    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+                    display: inline-block;
+                    text-align: left;
+                }
+                .id-colaboradores-texto-3 {
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-top: 2.8rem;
+                    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+                    display: inline-block;
+                    text-align: left;
+                }
+                .membros-caixa {
+                    border-radius: 5px;
+                    margin-top: 1rem;
+                    display: inline;
+                    text-align: left;
+                }
+                .margem-colaboradores {
+                    margin-top: -185px;
+                    margin-left: 160px;
+                }
+                .margem-colaboradores-1 {
+                    margin-top: -212px;
+                    margin-left: 160px;
+                }
+                .margem-colaboradores-2 {
+                    margin-top: -190px;
+                    margin-left: 160px;
+                }
+                .margem-colaboradores-3 {
+                    margin-top: -197px;
+                    margin-bottom: -35px;
+                    margin-left: 160px;
+                }
+                .margem-colaboradores-4 {
+                    margin-top: -182px;
+                    margin-bottom: -5px;
+                    margin-left: 160px;
+                }
+                .texto-colaboradores {
+                    display: grid;
+                    background-color: rgb(83, 25, 2);
+                    border-radius: 5px;
+                    margin-left: 20px;
+                    color: #ffffff;
+                    box-shadow: 1px 1px 1px gray;
+                    border: solid black;
+                }
+                .texto-colaboradores-id {
+                    font-size: 1rem;
+                    margin-bottom: .1%;
+                    color: #333;
+                }
+                .texto-colaboradores:hover {
+                    display: flex;
+                    margin-left: 1%;
+                    background-color: rgb(83, 25, 2);
+                    border-radius: 15px;
+                }
+                .link-colaboradores {
+                    font-weight: bolder;
+                    text-decoration: wavy rgb(10, 20, 156);
+                    color: rgb(114, 155, 209);
+                }
+                .link-colaboradores:hover {
+                    opacity: 80%;
+                    background-color: rgb(202, 202, 202);
+                    color: rgb(99, 24, 24);
+                }
+                .link-colaboradores:focus {
+                    font-weight: bolder;
+                    color: rgb(156, 86, 235);
+                }
+                /* ESTILO DAS IMAGENS INTERNACIONAIS */
+                .img-inter {
+                    width: 25px;
+                    height: 15px;
+                    display: flex;
+                    float: right;
+                    margin-inline-end: 2.5%;
+                }
+                .img-inter-angola {
+                    width: 30px;
+                    height: 20px;
+                    display: flex;
+                    float: right;
+                    margin-inline-end: 2.5%;
+                }
+                /* FIM - PAGINA COLABORADORES - CORPO DOSCENTE */
+                /* FIM - PAGINA COLABORADORES */
+                /*  PAGINA APRESENTAÇAO */
+                .texto-fundadores {
+                    font-size: 1.5rem;
+                    margin-top: .5rem;
+                    margin-left: 1.5rem;
+                    color: #333;
+                }
+                .texto-apresentacao {
+                    align-items: center;
+                    font-size: 2rem;
+                }
+                /* FIM - PAGINA APRESENTAÇAO */
+                /* PAGINA CONTATO */
+                .caixa-contato-dentro {
+                    font-size: 1.5rem;
+                    border-radius: 5px;
+                    margin-top: 1.5rem;
+                    margin-bottom: .5rem;
+                    display: inline-block;
+                    text-align: left;
+                }
+                .id-contato {
+                    display: inline-block;
+                    margin-bottom: 2rem;
+                    color: #333;
+                    justify-content: space-between;
+                }
+                .caixa-contato {
+                    background-color: #b14c09;
+                    margin: 2.5rem;
+                    margin-left: 20rem;
+                    margin-right: 20rem;
+                    margin-bottom: 1rem;
+                    border-radius: 10px;
+                    text-align: center;
+                    align-items: center;
+                    border: box-shadow 2px 2px 2px #333;
+                    display: block;
+                }
+                .texto-contato-titulo {
+                    font-size: 2rem;
+                    display: block;
+                    text-align: center;
+                    align-items: center;
+                    margin-bottom: 0.5em;
+                    margin-top: 0.5em;
+                    color: #ffffff;
+                    border-bottom: solid #333;
+                }
+                .texto-contato-1 {
+                    font-size: 1.7rem;
+                    display: inline-block;
+                    text-align: center;
+                    align-items: center;
+                    margin-bottom: 1.5em;
+                    color: #ffffff;
+                }
+                .texto-contato-2 {
+                    font-size: 1.7rem;
+                    display: inline-block;
+                    text-align: center;
+                    align-items: center;
+                    margin-inline-end: 21rem;
+                    margin-top: 3rem;
+                    color: #ffffff;
+                }
+                .texto-contato-2:hover {
+                    opacity: 100%;
+                    background-color: #e48d68;
+                    border-radius: 5px;
+                }
+                /* FIM - PAGINA CONTATO */
+            }
