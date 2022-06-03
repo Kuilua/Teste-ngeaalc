@@ -26,6 +26,9 @@
                    background-image: none;
                    background-color: rgb(168, 24, 24);
                }
+               .centralizar-elementos-mobile {
+                   text-align: center;
+               }
                .inicio-3-inline-mobile {
                    display: inline-block;
                    position: center;
@@ -277,7 +280,6 @@
                .img-colaboradores-mobile {
                    margin-top: 1rem;
                    margin-bottom: 1.5rem;
-                   margin-right: 2rem;
                    height: 25rem;
                    width: 20rem;
                    text-align: center;
@@ -296,6 +298,21 @@
                }
                .margem-colaboradores {
                    margin-top: -15px;
+               }
+               .container-colaboradores-mobile {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   margin-left: 2.4rem;
+                   margin-right: 2.4rem;
+                   text-align: start;
+               }
+               .container-colaboradores-mobile-2 {
+                   display: inline-block;
+                   margin-bottom: 2rem;
+                   align-items: center;
+                   justify-content: center;
+                   justify-items: center;
+                   text-align: center;
                }
                .container-mobile-1 {
                    display: inline-block;
