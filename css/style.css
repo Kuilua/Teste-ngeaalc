@@ -94,19 +94,22 @@
             .texto-eventos {
                 font-size: 16px;
                 margin-top: -2%;
+                margin-left: 7rem;
                 color: #333;
             }
             
             .texto-eventos-1 {
-                font-size: 18px;
-                margin-top: 1%;
+                font-size: 1.2rem;
+                margin-top: .7rem;
                 margin-bottom: 2%;
+                margin-left: 7rem;
                 color: #333;
             }
             
             .texto-eventos-2 {
                 font-size: 16px;
                 margin-top: -1.2%;
+                margin-left: 4rem;
                 color: #333;
                 align-items: center;
             }

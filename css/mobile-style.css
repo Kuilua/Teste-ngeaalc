@@ -171,7 +171,7 @@
                    display: grid;
                    margin-top: 2rem;
                    margin-bottom: 1rem;
-                   font-size: 2.5rem;
+                   font-size: 3.5rem;
                    font-family: 'roboto';
                    align-items: center;
                    text-align: center;
@@ -313,9 +313,9 @@
                }
                .img-colaboradores-mobile {
                    margin-top: 1rem;
-                   margin-bottom: 1.5rem;
-                   height: 25rem;
-                   width: 20rem;
+                   margin-bottom: 1rem;
+                   height: 40rem;
+                   width: 35rem;
                    text-align: center;
                }
                .texto-membros-mobile {
@@ -355,9 +355,14 @@
                    text-align: start;
                }
                .texto-colaboradores-mobile {
-                   font-size: 1rem;
+                   font-size: 1.7rem;
                    margin-bottom: .3rem;
                    color: #333;
+               }
+               .colaboradores-resumo-mobile {
+                   font-size: 1.7rem;
+                   display: inline-block;
+                   text-align: left;
                }
                /* FIM - MEMBROS - PESQUISADORES */
                /* MEMBROS - ESTUDANTES */
@@ -475,9 +480,9 @@
                    margin-top: 5px;
                    position: relative;
                    float: start;
-                   color: rgb(0, 0, 0);
+                   color: #ffffff;
                }
                .fundo-reuniao {
-                   background-color: #c1e338;
+                   background-color: #c05605;
                }
            }
