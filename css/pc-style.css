@@ -26,6 +26,16 @@
                     border: 4px solid rgb(240, 169, 102);
                     /* creates padding around scroll thumb */
                 }
+                .centralizar-elementos-pc {
+                    text-align: start;
+                    text-align: center;
+                }
+                .esquedizar-elementos-pc {
+                    text-align: start;
+                }
+                .direitizar-elementos-pc {
+                    text-align: end;
+                }
                 #titulo {
                     font-size: 15vmin;
                 }
@@ -122,50 +132,42 @@
                 }
                 /* Trio de elementos da Pagina Inicial */
                 .inicio-3-inline {
-                    display: inline-block;
-                    position: center;
-                    margin-left: 10vh;
-                    margin-right: -15vh;
-                    margin-bottom: 10vh;
-                    margin-top: 2vh;
+                    display: block;
+                    margin-top: 2rem;
                     border-radius: 15px;
+                    margin-left: -15rem;
                 }
                 .inicio-3-inline-ajuste {
                     display: inline-flex;
-                    width: 40vmin;
-                    height: 40vmin;
+                    width: 35rem;
+                    height: 35rem;
                 }
                 .inicio-3-inline-ajuste-2 {
-                    width: 40vmin;
-                    height: 40vmin;
-                    justify-content: space-evenly;
+                    width: 35rem;
+                    height: 35rem;
                 }
                 .inicio-3-inline-ajuste-3 {
                     margin-top: 5%;
-                    width: 65vmin;
-                    height: 35vmin;
-                    justify-content: space-evenly;
+                    width: 50rem;
+                    height: 40rem;
                 }
                 .inicio-3-inline-esquerda {
-                    width: 40vh;
-                    height: 40vh;
-                    float: inline-start;
-                    background-color: #fbdbbb;
+                    width: 35rem;
+                    height: 35rem;
                     background-color: #c85314;
                     border-radius: 5px;
                 }
                 .inicio-3-inline-centro {
                     margin-top: -3px;
-                    width: 40vh;
-                    height: 40vh;
+                    width: 33rem;
+                    height: 33rem;
                     justify-content: center;
                     background-color: #e8b16e;
                     border-radius: 5px;
                 }
                 .inicio-3-inline-direita {
-                    width: 0vh;
-                    height: 37vh;
-                    float: inline-end;
+                    width: 30rem;
+                    height: 30rem;
                     background-color: #c85314;
                     border-radius: 5px;
                 }
@@ -180,7 +182,8 @@
                     z-index: 0;
                     color: #333;
                     margin-top: 3%;
-                    margin-left: -11rem;
+                    margin-inline-start: -4rem;
+                    margin-inline-end: -1rem;
                     font-family: 'ROBOTO';
                     color: #c85314;
                 }
@@ -252,22 +255,23 @@
                     color: #333;
                     justify-content: space-between;
                 }
-                .id-colaboradores-texto {
-                    font-size: 16px;
-                    border-radius: 5px;
-                    margin-top: 2.5rem;
+                .container-colaboradores-pc {
+                    height: 195px;
+                }
+                .margem-colaboradores-resumo {
+                    font-size: 1.5rem;
                     display: inline-block;
                     text-align: left;
                 }
-                .id-colaboradores-texto-1 {
+                .margem-colaboradores-resumo-1 {
                     font-size: 16px;
                     border-radius: 5px;
-                    margin-top: 1.3rem;
+                    margin-top: 5rem;
                     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
                     display: inline-block;
                     text-align: left;
                 }
-                .id-colaboradores-texto-2 {
+                .margem-colaboradores-resumo-2 {
                     font-size: 16px;
                     border-radius: 5px;
                     margin-top: 3.1rem;
@@ -321,7 +325,7 @@
                     border: solid black;
                 }
                 .texto-colaboradores-pesquisadores {
-                    font-size: 1rem;
+                    font-size: 1.5rem;
                     margin-bottom: .3rem;
                     color: #333;
                 }
@@ -401,7 +405,7 @@
                     border: box-shadow 2px 2px 2px #333;
                     display: block;
                 }
-                .texto-contato-titulo {
+                .texto-contato-titulo-pc {
                     font-size: 2rem;
                     display: block;
                     text-align: center;
