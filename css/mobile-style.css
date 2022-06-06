@@ -136,6 +136,13 @@
                    justify-content: center;
                    justify-items: center;
                }
+               .img-eventos-mobile-2 {
+                   margin-bottom: 3rem;
+                   align-self: center;
+                   justify-self: center;
+                   justify-content: center;
+                   justify-items: center;
+               }
                .logos {
                    width: 0;
                    height: 0;
@@ -151,6 +158,11 @@
                }
                .topo {
                    visibility: hidden;
+               }
+               .container-eventos-mobile {
+                   display: block;
+                   margin-left: 1.5rem;
+                   margin-right: 1.5rem;
                }
                /* FIM - SUMIR COM AS LOGOS */
                /* FIM - TEXTO DO CORPO */
@@ -188,6 +200,11 @@
                    align-items: left;
                    text-align: center;
                    position: relative;
+               }
+               .texto-eventos-mobile {
+                   font-size: 1.5rem;
+                   margin-top: 1rem;
+                   color: #333;
                }
                /* FIM - TEXTO DO CORPO */
                /* FIM - RODAPE + TEXTO DE RODAPE */
@@ -245,29 +262,29 @@
                .inicio-3-inline {
                    display: grid;
                    position: center;
-                   margin-bottom: 5rem;
+                   margin-bottom: 15rem;
                    margin-top: 2rem;
                    border-radius: 15px;
+                   text-align: center;
                }
                .inicio-3-inline-esquerda {
-                   width: 30rem;
-                   height: 30rem;
+                   width: 35rem;
+                   height: 35rem;
                    float: center;
                    justify-content: center;
                    border-radius: 5px;
                    float: center;
                }
                .inicio-3-inline-centro {
-                   margin-top: -3px;
-                   width: 25rem;
-                   height: 30rem;
+                   width: 31rem;
+                   height: 35rem;
                    justify-content: center;
                    background-color: #e8b16e;
                    border-radius: 5px;
                    float: center;
                }
                .inicio-3-inline-direita {
-                   width: 30rem;
+                   width: 35rem;
                    height: 30rem;
                    float: center;
                    justify-content: center;
@@ -480,10 +497,10 @@
                    margin-top: 5px;
                    position: relative;
                    float: start;
-                   color: #ffffff;
+                   color: #333;
                    border: solid #e8b16e;
                    border-radius: 10px;
-                   background-color: #333;
+                   background-color: rgb(255, 255, 255);
                }
                .fundo-reuniao {
                    background: local;
@@ -553,4 +570,61 @@
                    justify-content: center;
                    align-items: center;
                }
+               /*  Eventos */
+               .img-eventos {
+                   justify-items: center;
+                   border-radius: 5px;
+                   border: solid #cecece;
+                   margin-top: 5vmin;
+               }
+               .div-eventos {
+                   position: relative;
+                   font-size: 3rem;
+                   display: grid;
+                   justify-content: center;
+                   align-items: center;
+                   z-index: 0;
+               }
+               .texto-eventos {
+                   font-size: 16px;
+                   margin-top: -1rem;
+                   color: #333;
+               }
+               .texto-eventos-4 {
+                   font-size: 16px;
+                   color: #333;
+               }
+               .texto-eventos-1 {
+                   font-size: 1.7rem;
+                   margin-bottom: 2%;
+                   color: #333;
+               }
+               .texto-eventos-2 {
+                   font-size: 16px;
+                   margin-top: -1.2%;
+                   color: #333;
+                   align-items: center;
+               }
+               .texto-eventos-3 {
+                   font-size: 18px;
+                   margin-top: 2%;
+                   margin-bottom: 5%;
+                   color: #333;
+                   align-items: center;
+               }
+               .texto-corpo-eventos {
+                   margin: 5vmin;
+                   background-position: center;
+                   font: optional;
+                   font-size: 2rem;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   color: #333;
+               }
+               .margem-eventos {
+                   margin-top: -185px;
+                   margin-left: 165px;
+               }
+               /* FIM - Eventos */
            }

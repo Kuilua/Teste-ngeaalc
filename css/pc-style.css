@@ -536,4 +536,66 @@
                     color: #333;
                 }
                 /* FIM - Linhas-de-pesquisa */
+                /*  Eventos */
+                .img-eventos {
+                    justify-items: center;
+                    border-radius: 5px;
+                    border: solid #cecece;
+                    margin-top: 5vmin;
+                }
+                .div-eventos {
+                    position: relative;
+                    font-size: 5vmin;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 0;
+                }
+                .texto-eventos {
+                    font-size: 16px;
+                    margin-top: -1rem;
+                    margin-left: 7rem;
+                    color: #333;
+                }
+                .texto-eventos-4 {
+                    font-size: 16px;
+                    margin-top: -1rem;
+                    color: #333;
+                }
+                .texto-eventos-1 {
+                    font-size: 1.7rem;
+                    margin-top: .3rem;
+                    margin-bottom: 2%;
+                    margin-left: 7rem;
+                    color: #333;
+                }
+                .texto-eventos-2 {
+                    font-size: 16px;
+                    margin-top: -1.2%;
+                    margin-left: 4rem;
+                    color: #333;
+                    align-items: center;
+                }
+                .texto-eventos-3 {
+                    font-size: 18px;
+                    margin-top: 2%;
+                    margin-bottom: 5%;
+                    color: #333;
+                    align-items: center;
+                }
+                .texto-corpo-eventos {
+                    margin: 5vmin;
+                    background-position: center;
+                    font: optional;
+                    font-size: 3vmin;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #333;
+                }
+                .margem-eventos {
+                    margin-top: -185px;
+                    margin-left: 165px;
+                }
+                /* FIM - Eventos */
             }
