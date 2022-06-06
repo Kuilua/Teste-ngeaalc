@@ -119,8 +119,10 @@
                    font-size: 2rem;
                    margin-inline-start: .5rem;
                    margin-inline-end: .5rem;
-                   font-style: none;
-                   list-style: none;
+                   text-decoration: none;
+               }
+               .link-redes-sociais-mobile {
+                   text-decoration: none;
                }
                .apagar-texto-mobile {
                    margin-top: 2vh;
