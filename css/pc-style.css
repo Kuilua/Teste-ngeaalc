@@ -438,4 +438,102 @@
                     border-radius: 5px;
                 }
                 /* FIM - PAGINA CONTATO */
+                /* Linhas-de-pesquisa */
+                .caixa-linhas-de-pesquisa-pc {
+                    margin-top: 2rem;
+                    margin-left: 5rem;
+                    margin-right: 5rem;
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    color: #333;
+                }
+                .caixa-membros-linhas-de-pesquisa-pc {
+                    display: grid;
+                    margin-bottom: 2rem;
+                    font-size: 2rem;
+                    justify-content: left;
+                }
+                .membros-linhas-de-pesquisa-pc {
+                    color: #333;
+                    margin-top: .5rem;
+                    margin-bottom: .5rem;
+                    font-size: 2.5rem;
+                }
+                .numero-linhas-de-pesquisa-1 {
+                    font-size: 3rem;
+                    margin-top: 3rem;
+                    margin-bottom: 1rem;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .numero-linhas-de-pesquisa-2 {
+                    font-size: 3rem;
+                    margin-top: 3rem;
+                    margin-bottom: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .numero-linhas-de-pesquisa-3 {
+                    font-size: 3rem;
+                    margin-top: 3rem;
+                    margin-bottom: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .numero-linhas-de-pesquisa-4 {
+                    font-size: 3rem;
+                    margin-top: 3rem;
+                    margin-bottom: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .dir-linhas-de-pesquisa-pc {
+                    margin-top: 1rem;
+                    margin-bottom: 3rem;
+                    display: block;
+                    justify-content: space-between;
+                    font-family: 'ROBOTO';
+                }
+                .dir-linhas-de-pesquisa-direita {
+                    float: right;
+                    font-size: 2rem;
+                }
+                .dir-linhas-de-pesquisa-esquerda {
+                    float: left;
+                    font-size: 2rem;
+                }
+                .texto-titulo-linhas-de-pesquisa-pc {
+                    align-items: flex-start;
+                    margin-top: 3%;
+                    margin-left: 5rem;
+                    margin-right: 5rem;
+                    font-size: 2.5rem;
+                    color: #333;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .texto-titulo-linhas-de-pesquisa-1 {
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    font-size: 3rem;
+                    color: #333;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: rgb(173, 74, 4);
+                    text-decoration-line: underline;
+                    font-family: 'Caesar Dressing', cursive;
+                }
+                .texto-corpo-linhas-de-pesquisa-pc {
+                    margin-top: 3%;
+                    margin-bottom: 2vmin;
+                    font-size: 2vmin;
+                    justify-content: left;
+                    align-items: center;
+                    color: #333;
+                }
+                /* FIM - Linhas-de-pesquisa */
             }

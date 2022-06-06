@@ -481,8 +481,76 @@
                    position: relative;
                    float: start;
                    color: #ffffff;
+                   border: solid #e8b16e;
+                   border-radius: 10px;
+                   background-color: #333;
                }
                .fundo-reuniao {
-                   background-color: #c05605;
+                   background: local;
+               }
+               /* PAGINA LINHAS DE PESQUISA */
+               /* FIM - PAGINA LINHAS DE PESQUISA */
+               .linhas-de-pesquisa-elementos-mobile {
+                   display: grid;
+                   margin-left: 2rem;
+                   margin-right: 2rem;
+               }
+               .texto-titulo-linhas-de-pesquisa-mobile {
+                   align-items: flex-start;
+                   font-size: 1.7rem;
+                   color: #333;
+                   justify-content: center;
+                   align-items: center;
+               }
+               .caixa-linhas-de-pesquisa-mobile {
+                   margin-top: 2rem;
+                   margin-bottom: 1rem;
+                   display: block;
+                   justify-content: center;
+                   align-items: center;
+                   color: #333;
+               }
+               .caixa-membros-linhas-de-pesquisa-mobile {
+                   display: grid;
+                   margin-bottom: 2rem;
+                   font-size: 2rem;
+                   justify-content: left;
+               }
+               .caixa-membros-linhas-de-pesquisa-mobile {
+                   display: grid;
+                   margin-bottom: 2rem;
+                   font-size: 2rem;
+                   justify-content: left;
+               }
+               .membros-linhas-de-pesquisa-mobile {
+                   color: #333;
+                   margin-top: .5rem;
+                   margin-bottom: .5rem;
+                   display: grid;
+                   font-size: 1.7rem;
+               }
+               .texto-corpo-linhas-de-pesquisa-mobile {
+                   margin-top: 2rem;
+                   margin-bottom: 1rem;
+                   font-size: 1.7rem;
+                   justify-content: left;
+                   align-items: center;
+                   color: #333;
+               }
+               .dir-linhas-de-pesquisa-mobile {
+                   font-size: 1.3rem;
+                   margin-top: 1rem;
+                   margin-bottom: .5rem;
+                   justify-content: space-between;
+                   font-family: 'ROBOTO';
+                   text-align: center;
+               }
+               .numero-linhas-de-pesquisa-mobile {
+                   font-size: 2.5rem;
+                   margin-top: 3rem;
+                   margin-bottom: 1rem;
+                   text-align: center;
+                   justify-content: center;
+                   align-items: center;
                }
            }
