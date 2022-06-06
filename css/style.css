@@ -144,9 +144,10 @@
             }
             
             .texto-nome {
-                font-size: .9vh;
-                color: #c85314;
+                font-size: 5rem;
+                color: #333;
                 font-family: 'roboto';
+                text-decoration: none;
             }
             
             .texto-nome-mobile {
