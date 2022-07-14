@@ -64,15 +64,15 @@
         <div class="menu-mobile">
             <!-- Menu Mobile -->
             <div class="topnav">
-                <a href="#topo" class="active texto-nome">NGEAALC</a>
+                <a href="index.html" class="active texto-nome-mobile">NGEAALC</a>
                 <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
+                <div id="myLinks-MenuPrincipal">
                     <li class="texto-menu-opcoes">
                         <a href="index.html"> <i class="fas fa-home"></i></i>
                             <p></p>Butula</a>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction2()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
-                        <div id="myLinks2">
+                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalNgeaalc()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
+                        <div id="myLinks-MenuPrincipal-Ngeaalc">
                             <ul>
                                 <li class="menu-h-mobile"><a href="o-ngeaalc/apresentacao.html">Apresentação</a></li>
                                 <li class="menu-h-mobile"><a href="o-ngeaalc/pesquisadores.html">Pesquisadores</a></li>
@@ -88,11 +88,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="producoes.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
+                    <li class="texto-menu-opcoes"> <a href="projetos.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
                     <li class="texto-menu-opcoes"> <a href="eventos.html"><i class="fas fa-chalkboard-teacher"></i><p></p>Eventos</a> </li>
                     <li class="texto-menu-opcoes"> <a href="revista.html"><i class="fas fa-newspaper"></i><p></p>Revista</a> </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction3()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
-                        <div id="myLinks3">
+                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalPublicacoes()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
+                        <div id="myLinks-MenuPrincipal-Publicacoes">
                             <ul>
                                 <li class="menu-h-mobile"><a href="publicacoes/artigos.html">Artigos</a></li>
                                 <li class="menu-h-mobile"><a href="publicacoes/livros.html">Livros</a></li>
@@ -104,15 +104,19 @@
                     <li class="texto-menu-opcoes"> <a href="contato.html"><i class="fas fa-mail-bulk"></i><p></p>Contato</a> </li>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                <a href="javascript:void(0);" class="icon" onclick="MenuPrincipalFuncao()">
+                    <i class="fa fa-bars barras-mobile"></i>
                 </a>
             </div>
         </div>
-
+        <!-- FUNCOES DO MENU -->
+        <!-- Links do Menu Principal - Função-Mãe -->
         <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Mãe
+            var x = document.getElementById("myLinks-MenuPrincipal").style.display = 'none';
+
+            function MenuPrincipalFuncao() {
+                var x = document.getElementById("myLinks-MenuPrincipal");
                 if (x.style.display === "block") {
                     x.style.display = "none";
                 } else {
@@ -120,10 +124,13 @@
                 }
             }
         </script>
-
+        <!-- Links do Menu Principal - Função-Ngeaalc -->
         <script>
-            function myFunction2() {
-                var y = document.getElementById("myLinks2");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Ngeaalc
+            var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc").style.display = 'none';
+
+            function MenuPrincipalNgeaalc() {
+                var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc");
                 if (y.style.display === "block") {
                     y.style.display = "none";
                 } else {
@@ -131,10 +138,13 @@
                 }
             }
         </script>
-
+        <!-- Links do Menu Principal - Função-Publicacoes -->
         <script>
-            function myFunction3() {
-                var z = document.getElementById("myLinks3");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+            var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes").style.display = 'none';
+
+            function MenuPrincipalPublicacoes() {
+                var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes");
                 if (z.style.display === "block") {
                     z.style.display = "none";
                 } else {
@@ -142,7 +152,7 @@
                 }
             }
         </script>
-
+        <!-- FIM - FUNCOES DO MENU  -->
         <!-- Corpo da pagina - Adicionar Elementos AQUI -->
         <div class="centralizar-texto-corpo-inicio">
             <br><br>
@@ -209,7 +219,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="texto-menu-opcoes"> <a href="producoes.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
+                            <li class="texto-menu-opcoes"> <a href="projetos.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
                             <li class="texto-menu-opcoes"> <a href="eventos.html"><i class="fas fa-chalkboard-teacher"></i><p></p>Eventos</a> </li>
                             <li class="texto-menu-opcoes"> <a href="revista.html"><i class="fas fa-newspaper"></i><p></p>Revista</a> </li>
                             <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction3()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
@@ -227,38 +237,57 @@
 
             <label class="animate__animated animate__fadeIn titulo-principal">EVENTOS</label>
 
+            <!-- Barra Volte ao Topo -->
             <div class="rodape-cor">
                 <footer class="menu-r-topo">
-                    <!-- Barra Volte ao Topo -->
                     <label class="texto-rodape-topo">  </label>
                 </footer>
             </div>
 
             <label class="animate__animated animate__fadeIn texto-titulo-pc texto-titulo-mobile">EVENTOS JÁ OCORRIDOS</label>
 
-            <div class="div-eventos">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaFgamQRuHQuf8sSSAnUO-pfphlGAHpKTb6NerH0cGRel3PA/viewform?usp=sf_link">
-                    <img class="img-eventos img-eventos-mobile" src="img/Eventos/CARD CÓPIA.jpg"> </a>
+            <!-- Barra Volte ao Topo -->
+            <div class="rodape-cor">
+                <footer class="menu-r-topo">
+                    <!-- Barra Volte ao Topo -->
+                    <a href="javascript:void(0);" onclick="MostrarEventos()"><i class="fas fa-chevron-down texto-rodape-topo texto-rodape-topo-mobile"></i></a>
+                </footer>
             </div>
-            <br><br>
+            <br>
+            <script>
+                function MostrarEventos() {
+                    var x = document.getElementById("myLinks-Eventos");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+            <br>
+            <div id="myLinks-Eventos" class="esquedizar-elementos-mobile">
+                <div class="div-eventos">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaFgamQRuHQuf8sSSAnUO-pfphlGAHpKTb6NerH0cGRel3PA/viewform?usp=sf_link">
+                        <img class="img-eventos img-eventos-mobile" src="img/Eventos/CARD CÓPIA.jpg"> </a>
+                </div>
+                <br><br>
 
-            <div class="container4">
-                <label class="texto-eventos-3"> O  CINE DEBATE  é uma proposta de atividade organizada e coordenada pela
-                pesquisadora Dra. Mille Caroline Rodrigues Fernandes ‘Makyesi’, que contempla os dois 
-               grupos de pesquisa em que integra: Núcleo de Estudos Africanos e Afro-brasileiros em 
-               Línguas e Culturas (NGEAALC/UNEB) e o Programa Memória da Educação na Bahia 
-               (PROMEBA/UNEB). A atividade ocorrerá dia 30 de maio de 2022, das 15 às 17 horas, 
-               no Auditório Jurandir Oliveira – Departamento de Educação Campus I da Universidade 
-                do Estado da Bahia (UNEB).</label>
+                <div class="container4 container-eventos-mobile">
+                    <label class="texto-eventos-3"> O  CINE DEBATE  é uma proposta de atividade organizada e coordenada pela
+                    pesquisadora Dra. Mille Caroline Rodrigues Fernandes ‘Makyesi’, que contempla os dois 
+                    grupos de pesquisa em que integra: Núcleo de Estudos Africanos e Afro-brasileiros em 
+                    Línguas e Culturas (NGEAALC/UNEB) e o Programa Memória da Educação na Bahia 
+                    (PROMEBA/UNEB). A atividade ocorrerá dia 30 de maio de 2022, das 15 às 17 horas, 
+                    no Auditório Jurandir Oliveira – Departamento de Educação Campus I da Universidade 
+                    do Estado da Bahia (UNEB).</label>
 
-                <br>
+                    <br>
 
-                <div class="id-colaboradores">
-                    <img class="forma-colaboradores-img" src="img/Eventos/Livro - 01.png">
-                    <div class="margem-colaboradores">
-                        <label class="texto-eventos">Sinopse:</label>
-
-                        <label class="texto-eventos-1"> O curta metragem “Guilhermina”, lançado em 2019, 
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/Eventos/Livro - 01.png" width="214" height="295">
+                        <div class="margem-eventos apagar-elemento-mobile">
+                            <label class="texto-eventos">Sinopse:</label>
+                            <label class="texto-eventos-1"> O curta metragem “Guilhermina”, lançado em 2019, 
                         sob a direção e produção da cineasta cubana Aida Sarduy toma 
                         como ponto de partida a história entre um menino branco e sua
                         cuidadora, uma mulher negra chamada Guillermina. Esta 
@@ -269,38 +298,51 @@
                         atravessar lugares onde terão que enfrentar e questionar o que 
                         ouvem e observam.
                          </label>
+                        </div>
+
+                        <div class="apagar-elementos-pc">
+                            <label class="texto-eventos-mobile">Sinopse:</label><br>
+                            <label class="texto-eventos-mobile"> O curta metragem “Guilhermina”, lançado em 2019, 
+                        sob a direção e produção da cineasta cubana Aida Sarduy toma 
+                        como ponto de partida a história entre um menino branco e sua
+                        cuidadora, uma mulher negra chamada Guillermina. Esta 
+                        história real, ambientada em Havana nos anos 40, relembra os 
+                        anos mais felizes de uma infância marcada pela presença de 
+                        Guillermina, porém, a história se desdobra, se abre e transcende 
+                        os acontecimentos que são narrados, levando os espectadores a 
+                        atravessar lugares onde terão que enfrentar e questionar o que 
+                        ouvem e observam.
+                         </label>
+                        </div>
+
                     </div>
-
-                </div>
-                <br><br><br>
-                <label class="texto-corpo-eventos">
-
+                    <br><br><br>
+                    <label class="texto-corpo-eventos">
                     O filme concorreu em várias festivais de cinema com destaque para:  
+                    </label>
 
-                </label>
-
-                <label class="texto-eventos-3"> Festival Selections and Screenings<br>
-                New Orleans Film Festival (2019) / New Orleans, United States.<br>
-                Uppsala International Short Film Festival (2020) / Uppsala, Sweden.<br>
-                Évreux International Educational Film Festival (2020) / Évreux, France<br>
-                Centre de Cultura Contemporanea Barcelona (CCCB) / Debate La cicatriz colonial (2020) / 
-                Barcelona, Spain<br>
-                My First Doc (2020) / Tunis, Tunisia<br>
-                FIPADOC (2021) / Biarritz, France<br>
-                Clermont-Ferrand International Short Film Festival (2021) / Clermont-Ferrand, France<br>
-                SANFICI (2021) / Bucaramanga, Colombia<br>
-                Pan African Film & Arts Festival LA, California, 2021<br>
-                IndieCork Festival - Ireland, 2021<br>
-                5th Edition of Black Canvas Festival de Cine Contemporáneo 2021, México.
-                 </label>
+                    <label class="texto-eventos-3"> Festival Selections and Screenings<br>
+                     New Orleans Film Festival (2019) / New Orleans, United States.<br>
+                    Uppsala International Short Film Festival (2020) / Uppsala, Sweden.<br>
+                    Évreux International Educational Film Festival (2020) / Évreux, France<br>
+                    Centre de Cultura Contemporanea Barcelona (CCCB) / Debate La cicatriz colonial (2020) / 
+                    Barcelona, Spain<br>
+                    My First Doc (2020) / Tunis, Tunisia<br>
+                    FIPADOC (2021) / Biarritz, France<br>
+                    Clermont-Ferrand International Short Film Festival (2021) / Clermont-Ferrand, France<br>
+                    SANFICI (2021) / Bucaramanga, Colombia<br>
+                    Pan African Film & Arts Festival LA, California, 2021<br>
+                    IndieCork Festival - Ireland, 2021<br>
+                    5th Edition of Black Canvas Festival de Cine Contemporáneo 2021, México.
+                    </label>
 
 
-                <br>
-                <label class="texto-eventos"> Mini currículo da cineasta: </label>
-                <div class="id-colaboradores">
-                    <img class="forma-colaboradores-img" src="img/Eventos/Muie.png">
-                    <div class="margem-colaboradores">
-                        <label class="texto-eventos-2"> Aída Esther Bueno Sarduy, PhD.
+                    <br>
+                    <label class="texto-eventos-4"> Mini currículo da cineasta: </label>
+                    <div class="id-colaboradores">
+                        <img class="img-eventos-mobile-2" src="img/Eventos/Muie.png">
+                        <div class="margem-colaboradores">
+                            <label class="texto-eventos-2 texto-eventos-mobile"> Aída Esther Bueno Sarduy, PhD.
                         Doctora “Cum Laude” por la Universidad Complutense de 
                         Madrid. Tesis doctoral sobre el liderazgo de las mujeres
                         sacerdotisas en el Xangô de Recife. Ha realizado investigaciones 
@@ -321,12 +363,15 @@
                         Ébano Teatro y Mujeres Afro en Escena (con patrocinio del 
                         Ministerio de Cultura del Perú, y la Casa de España en Lima).
                              </label>
+                        </div>
+                    </div>
+                    <div class="esquerdizar-elemenos-mobile">
+                        <label class="texto-corpo-eventos">Mediadora:
+                    Dra. Mille Caroline Rodrigues Fernandes ‘Makyesi”
+                    (NGEAALC/PROMEBA/UNEB)</label>
+
                     </div>
                 </div>
-
-                <label class="texto-corpo-eventos">Mediadora:
-                Dra. Mille Caroline Rodrigues Fernandes ‘Makyesi”
-                (NGEAALC/PROMEBA/UNEB)</label>
 
             </div>
             <!-- DIV Volte ao Topo -->
@@ -432,7 +477,7 @@
                     </div>
                 </div>
                 <!--  ICONES DAS REDES SOCIAS - MOBILE APENAS -->
-                <div class="mostrar-texto-rodape apagar-elementos-pc">
+                <div class="mostrar-texto-rodape apagar-elementos-pc centralizar-elementos-mobile">
                     <div class=" col-form-label-sm">
                         <!-- Icone, apenas Mobile - Facebook -->
                         <a href="https://www.facebook.com/africanias/" target="_blank"> <i class="fab fa-facebook redes-sociais-mobile"></i> </a>
@@ -453,22 +498,8 @@
                         <a href="" target="_blank"> <i class="fas fa-phone redes-sociais-mobile"></i> </a>
                     </div>
                 </div>
-                <!--  Endereço - MOBILE APENAS -->
-                <div class="mostrar-texto-rodape apagar-elementos-pc">
-                    <div class="container">
-                        <!-- Propriedade Coluna - Endereço -->
-                        <div class="row">
-                            <!-- Coluna - Endereço -->
-                            <div class="col col-lg-auto">
-                                <label class="texto-rodape-endereco">1º Andar - Prédio do Centro de Pesquisa, Educação e Desenvolvimento Regional (CPEDR/UNEB)</label>
-                                <label class="texto-rodape-endereco">Rua Silveira Martins, 2555, Cabula </label></div>
-                            <label class="texto-rodape-endereco">Salvador-BA</label><br>
-                            <label class="texto-rodape-endereco">CEP: 41.150-000</label>
-                        </div>
-                    </div>
-                </div>
                 <!--  Reuniões - MOBILE APENAS -->
-                <div class="mostrar-texto-rodape apagar-elementos-pc">
+                <div class="mostrar-texto-rodape apagar-elementos-pc centralizar-elementos-mobile fundo-reuniao">
                     <!-- Coluna 2 - Reuniões -->
                     <div class="container">
                         <!-- Propriedade Coluna - Reuniões -->
@@ -476,8 +507,21 @@
                             <!-- Propriedade para deixar em diferentes linhas - Reuniões -->
                             <div class=" col-lg-auto">
                                 <!-- Coluna - Reuniões -->
-                                <label class="texto-rodape-endereco">Reuniões - &nbsp;</label>
-                                <label class="texto-rodape-endereco">Terças: 14 às 16 horas </label>
+                                <label class="texto-rodape-reuniao"> &nbsp; Reuniões - Terças: 14 às 16 horas &nbsp; &nbsp; </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Endereço - MOBILE APENAS -->
+                <div class="mostrar-texto-rodape apagar-elementos-pc">
+                    <div class="container">
+                        <!-- Propriedade Coluna - Endereço -->
+                        <div class="row">
+                            <!-- Coluna - Endereço -->
+                            <div class="col col-lg-auto centralizar-elementos-mobile">
+                                <label class="texto-rodape-endereco">1º Andar - Prédio do Centro de Pesquisa, Educação e Desenvolvimento Regional (CPEDR/UNEB)</label>
+                                <label class="texto-rodape-endereco">Rua Silveira Martins, 2555, Cabula / Salvador-BA</label>
+                                <label class="texto-rodape-endereco">CEP: 41.150-000</label>
                             </div>
                         </div>
                     </div>

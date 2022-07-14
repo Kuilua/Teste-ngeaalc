@@ -116,6 +116,9 @@
         <!-- FUNCOES DO MENU -->
         <!-- Links do Menu Principal - Função-Mãe -->
         <script>
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Mãe
+            var x = document.getElementById("myLinks-MenuPrincipal").style.display = 'none';
+
             function MenuPrincipalFuncao() {
                 var x = document.getElementById("myLinks-MenuPrincipal");
                 if (x.style.display === "block") {
@@ -127,23 +130,29 @@
         </script>
         <!-- Links do Menu Principal - Função-Ngeaalc -->
         <script>
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Ngeaalc
+            var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc").style.display = 'none';
+
             function MenuPrincipalNgeaalc() {
-                var x = document.getElementById("myLinks-MenuPrincipal-Ngeaalc");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
+                var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc");
+                if (y.style.display === "block") {
+                    y.style.display = "none";
                 } else {
-                    x.style.display = "block";
+                    y.style.display = "block";
                 }
             }
         </script>
         <!-- Links do Menu Principal - Função-Publicacoes -->
         <script>
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+            var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes").style.display = 'none';
+
             function MenuPrincipalPublicacoes() {
-                var x = document.getElementById("myLinks-MenuPrincipal-Publicacoes");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
+                var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes");
+                if (z.style.display === "block") {
+                    z.style.display = "none";
                 } else {
-                    x.style.display = "block";
+                    z.style.display = "block";
                 }
             }
         </script>
@@ -165,11 +174,7 @@
                     <div class="nome-site">
                         <label class="texto-nome-principal-1"> NGEAALC </label>
                         <div>
-                            <label class="texto-nome-principal"> NÚCLEO DE</label>
-                            <label class="texto-nome-principal">ESTUDOS  </label>
-                            <label class="texto-nome-principal">AFRICANOS E </label>
-                            <label class="texto-nome-principal">AFRO-BRASILEIROS  EM </label>
-                            <label class="texto-nome-principal">LÍNGUAS </label> <label class="texto-nome-principal">E CULTURAS </label>
+                            <p class="texto-nome-principal"> NÚCLEO DE ESTUDOS AFRICANOS E AFRO-BRASILEIROS EM LÍNGUAS E CULTURAS</p>
                         </div>
                     </div>
                     <!-- LOGO NGEAALC -->
