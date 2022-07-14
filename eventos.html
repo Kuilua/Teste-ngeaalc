@@ -254,16 +254,21 @@
                 </footer>
             </div>
             <br>
+
             <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Mãe
+                var v = document.getElementById("myLinks-Eventos").style.display = 'none';
+
                 function MostrarEventos() {
-                    var x = document.getElementById("myLinks-Eventos");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
+                    var v = document.getElementById("myLinks-Eventos");
+                    if (v.style.display === "block") {
+                        v.style.display = "none";
                     } else {
-                        x.style.display = "block";
+                        v.style.display = "block";
                     }
                 }
             </script>
+
             <br>
             <div id="myLinks-Eventos" class="esquedizar-elementos-mobile">
                 <div class="div-eventos">
