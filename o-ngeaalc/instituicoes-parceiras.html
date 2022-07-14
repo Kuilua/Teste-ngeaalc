@@ -64,35 +64,35 @@
         <div class="menu-mobile">
             <!-- Menu Mobile -->
             <div class="topnav">
-                <a href="#topo" class="active texto-nome">NGEAALC</a>
+                <a href="index.html" class="active texto-nome-mobile">NGEAALC</a>
                 <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
+                <div id="myLinks-MenuPrincipal">
                     <li class="texto-menu-opcoes">
                         <a href="../index.html"> <i class="fas fa-home"></i></i>
                             <p></p>Butula</a>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction2()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
-                        <div id="myLinks2">
+                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalNgeaalc()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
+                        <div id="myLinks-MenuPrincipal-Ngeaalc">
                             <ul>
-                                <li class="menu-h-mobile"><a href="apresentacao.html">Apresentação</a></li>
-                                <li class="menu-h-mobile"><a href="pesquisadores.html">Pesquisadores</a></li>
-                                <li class="menu-h-mobile"><a href="estudantes.html">Estudantes</a></li>
-                                <li class="menu-h-mobile"><a href="tecnicos.html">Técnicos</a></li>
-                                <li class="menu-h-mobile"><a href="internacionais.html">Colaboradores Internacionais</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/apresentacao.html">Apresentação</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/pesquisadores.html">Pesquisadores</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/estudantes.html">Estudantes</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/tecnicos.html">Técnicos</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/internacionais.html">Colaboradores Internacionais</a></li>
 
-                                <li class="menu-h-mobile"><a href="estatuto.html">Estatuto</a></li>
-                                <li class="menu-h-mobile"><a href="regimento.html">Regimento</a></li>
-                                <li class="menu-h-mobile"><a href="linhas-de-pesquisas.html">Linhas de Pesquisas</a></li>
-                                <li class="menu-h-mobile"><a href="instituicoes-parceiras.html">Instituições Parceiras</a></li>
-                                <li class="menu-h-mobile"><a href="egresso.html">Egressos</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/estatuto.html">Estatuto</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/regimento.html">Regimento</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/linhas-de-pesquisas.html">Linhas de Pesquisas</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/instituicoes-parceiras.html">Instituições Parceiras</a></li>
+                                <li class="menu-h-mobile"><a href="../o-ngeaalc/egresso.html">Egressos</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="../producoes.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
+                    <li class="texto-menu-opcoes"> <a href="../projetos.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
                     <li class="texto-menu-opcoes"> <a href="../eventos.html"><i class="fas fa-chalkboard-teacher"></i><p></p>Eventos</a> </li>
                     <li class="texto-menu-opcoes"> <a href="../revista.html"><i class="fas fa-newspaper"></i><p></p>Revista</a> </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction3()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
-                        <div id="myLinks3">
+                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalPublicacoes()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
+                        <div id="myLinks-MenuPrincipal-Publicacoes">
                             <ul>
                                 <li class="menu-h-mobile"><a href="../publicacoes/artigos.html">Artigos</a></li>
                                 <li class="menu-h-mobile"><a href="../publicacoes/livros.html">Livros</a></li>
@@ -104,15 +104,19 @@
                     <li class="texto-menu-opcoes"> <a href="../contato.html"><i class="fas fa-mail-bulk"></i><p></p>Contato</a> </li>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                <a href="javascript:void(0);" class="icon" onclick="MenuPrincipalFuncao()">
+                    <i class="fa fa-bars barras-mobile"></i>
                 </a>
             </div>
         </div>
-
+        <!-- FUNCOES DO MENU -->
+        <!-- Links do Menu Principal - Função-Mãe -->
         <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Mãe
+            var x = document.getElementById("myLinks-MenuPrincipal").style.display = 'none';
+
+            function MenuPrincipalFuncao() {
+                var x = document.getElementById("myLinks-MenuPrincipal");
                 if (x.style.display === "block") {
                     x.style.display = "none";
                 } else {
@@ -120,10 +124,13 @@
                 }
             }
         </script>
-
+        <!-- Links do Menu Principal - Função-Ngeaalc -->
         <script>
-            function myFunction2() {
-                var y = document.getElementById("myLinks2");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Ngeaalc
+            var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc").style.display = 'none';
+
+            function MenuPrincipalNgeaalc() {
+                var y = document.getElementById("myLinks-MenuPrincipal-Ngeaalc");
                 if (y.style.display === "block") {
                     y.style.display = "none";
                 } else {
@@ -131,10 +138,13 @@
                 }
             }
         </script>
-
+        <!-- Links do Menu Principal - Função-Publicacoes -->
         <script>
-            function myFunction3() {
-                var z = document.getElementById("myLinks3");
+            // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+            var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes").style.display = 'none';
+
+            function MenuPrincipalPublicacoes() {
+                var z = document.getElementById("myLinks-MenuPrincipal-Publicacoes");
                 if (z.style.display === "block") {
                     z.style.display = "none";
                 } else {
@@ -142,8 +152,7 @@
                 }
             }
         </script>
-
-
+        <!-- FIM - FUNCOES DO MENU  -->
         <!-- Corpo da pagina - Adicionar Elementos AQUI -->
         <div class="centralizar-texto-corpo-inicio">
             <br><br>
