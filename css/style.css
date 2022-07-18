@@ -528,7 +528,7 @@
                 color: #000000;
                 font-size: 1.4rem;
                 padding: 5px;
-                margin-left: -3.2vmin;
+                margin-left: -2.5rem;
                 text-align: center;
                 position: relative;
                 font-family: 'roboto';
@@ -732,6 +732,12 @@
                 margin-right: 25vmin;
             }
             
+            .campo-label-4:hover {
+                background-color: #eaf2f2;
+                color: rgb(156, 86, 235);
+                border-radius: 10px;
+            }
+            
             .campo-label-5 {
                 text-align: center;
                 align-items: center;
@@ -836,102 +842,93 @@
                 text-align: center;
             }
             /* FIM - PAGINA INSTITUICOES PARCEIRAS */
-            /* PAGINA  */
+            /* PAGINA PUBLICAÇÕES - ARTIGOS */
             
             .ano-publicacao {
                 background-color: #c85314;
-                margin: 5vh;
-                font-style: none;
+                margin: 3rem;
                 border-radius: 10px;
+                font-style: none;
                 list-style: none;
             }
             
             .ano-publicacao-2 {
-                background-color: #e4a583;
-                font-style: none;
+                background-color: #c85314;
+                margin: 2.5rem;
                 border-radius: 10px;
+                font-style: none;
                 list-style: none;
             }
             
             .ano-publicacao-dentro {
-                display: inline;
-                background-color: #e4a583;
+                position: relative;
+                align-items: center;
+                border-radius: 10px;
                 font-style: none;
-                margin-left: 0vh;
-                margin-right: 0vh;
                 list-style: none;
             }
             
             .ano-publicacao-dentro-2 {
                 background-color: #e4a583;
+                font-style: none;
                 list-style: none;
             }
             
             .texto-publicacao {
-                margin-top: 3vh;
-                margin-bottom: 3vh;
-                font: optional;
-                font-size: 3vh;
-                display: block;
-                justify-content: center;
-                align-items: center;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 2rem;
                 color: white;
-                margin-left: 5vh;
                 border-radius: 10px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 list-style: none;
+                font-style: none;
             }
             
             .texto-publicacao-2 {
-                font-style: none;
-                font: optional;
-                font-size: 3vh;
-                display: block;
-                justify-content: center;
-                align-items: center;
+                font-size: 1.5rem;
                 color: white;
                 border-radius: 10px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family: 'Arial Narrow Bold', sans-serif;
+                list-style: none;
+                font-style: none;
             }
             
             .texto-publicacao-itens {
-                margin-top: 2vh;
-                margin-bottom: 2vh;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
                 font: optional;
-                font-size: 3vh;
+                font-size: 2rem;
                 color: white;
-                margin-left: 1.5vh;
                 border-radius: 10px;
+                font-style: none;
+                list-style: none;
             }
             
             .texto-publicacao-itens-2 {
                 font: optional;
-                font-size: 3vh;
+                font-size: 2rem;
                 color: white;
                 border-radius: 10px;
+                font-style: none;
+                list-style: none;
             }
             
             .texto-publicacao:hover {
-                margin-left: 0vh;
-                margin-right: 0vh;
-                background-color: #d07e61;
-            }
-            
-            .texto-publicacao-2:hover {
-                margin-left: 0vh;
-                margin-right: 0vh;
-                font-size: 3.5vh;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+                font-size: 2.7rem;
                 color: #333;
-                background-color: #e4a583;
+                background-color: #d47d5e;
+                font-style: none;
+                list-style: none;
             }
             
             .texto-publicacao-itens:hover {
-                margin-left: 5vh;
+                color: #333;
                 background-color: #c66744;
-            }
-            
-            .texto-publicacao-itens-2:hover {
-                margin-left: 0vh;
+                list-style: none;
+                font-style: none;
             }
             /* PUBLICAÇOES - MENU DE SELEÇÃO */
             
@@ -976,11 +973,13 @@
             .div-manutencao {
                 position: relative;
                 display: grid;
+                text-align: center;
                 justify-content: center;
                 align-items: center;
             }
             
             .manutencao {
+                text-align: center;
                 font-size: 1rem;
                 position: relative;
                 display: grid;
@@ -991,6 +990,7 @@
             }
             
             .texto-nome-manutencao {
+                text-align: center;
                 font-size: 3rem;
                 position: relative;
                 display: grid;
