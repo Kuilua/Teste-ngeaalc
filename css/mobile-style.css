@@ -790,6 +790,9 @@
                .texto-menu-mobile:hover {
                    color: #b14c09;
                }
+               .texto-titulo-mobile-menu:hover {
+                   color: #b14c09;
+               }
                /* SUMIR COM AS LOGOS, TEXTOS RODAPE E MENU VERSAO SITE */
                .logo-ngeaalc {
                    display: inline-table;
