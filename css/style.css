@@ -219,11 +219,11 @@
             
             .texto-menu-opcoes {
                 color: #ffffff;
-                font-size: large;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 5px;
-                padding-bottom: 5px;
+                font-size: 2rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
                 text-align: center;
                 position: relative;
             }
@@ -297,19 +297,19 @@
             }
             
             .menu-h ul li {
-                display: inline;
+                display: inline-block;
+                margin-left: -2rem;
             }
             
             .menu-h ul li a {
-                padding: 15px;
-                padding-left: 25px;
-                padding-right: 25px;
+                padding: 1.5rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
                 display: inline-block;
                 text-decoration: none;
                 transition: background .3s;
                 border: none;
                 border-radius: 5px;
-                margin-left: -20px;
             }
             
             .menu-h li a:hover {
@@ -485,6 +485,17 @@
                 font-size: 50px;
                 text-align: center;
                 color: #c85314;
+            }
+            
+            .texto-projetos {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 2rem;
+                color: white;
+                border-radius: 10px;
+                font-family: sans-serif;
+                list-style: none;
+                font-style: none;
             }
             
             .scrool-calendario {
@@ -882,7 +893,7 @@
                 font-size: 2rem;
                 color: white;
                 border-radius: 10px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family: sans-serif;
                 list-style: none;
                 font-style: none;
             }
@@ -970,35 +981,4 @@
                 margin-right: 2vh;
                 margin-top: 2vh;
                 margin-bottom: 2vh;
-            }
-            
-            .div-manutencao {
-                position: relative;
-                display: grid;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .manutencao {
-                text-align: center;
-                font-size: 1rem;
-                position: relative;
-                display: grid;
-                justify-content: center;
-                align-items: center;
-                width: 30rem;
-                height: 30rem;
-            }
-            
-            .texto-nome-manutencao {
-                text-align: center;
-                font-size: 3rem;
-                position: relative;
-                display: grid;
-                justify-content: center;
-                align-items: center;
-                z-index: 0;
-                color: rgb(0, 0, 0);
-                margin-top: 3%;
             }

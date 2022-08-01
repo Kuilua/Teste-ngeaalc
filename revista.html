@@ -237,14 +237,104 @@
 
             <label class="animate__animated animate__fadeInLeft texto-titulo-pc texto-titulo-mobile">REVISTA</label>
 
-            <div class="div-manutencao">
-                <label class="texto-nome-manutencao"> EM </label>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
 
-                <img class="manutencao" src="../img/plano-manutencao.webp">
-
-                <label class="texto-nome-manutencao"> MANUTENÇÃO </label>
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction2022()"><label class="texto-publicacao"> 2022 &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2022">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
             </div>
-            <br>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction002()"><label class="texto-publicacao"> 2021 &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2021">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction003()"><label class="texto-publicacao"> 2020 &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2020">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var a = document.getElementById("myLinks-2022").style.display = 'none';
+
+                function myFunction2022() {
+                    var a = document.getElementById("myLinks-2022");
+                    if (a.style.display === "block") {
+                        a.style.display = "none";
+                    } else {
+                        a.style.display = "block";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var b = document.getElementById("myLinks-2021").style.display = 'none';
+
+                function myFunction002() {
+                    var b = document.getElementById("myLinks-2021");
+                    if (b.style.display === "none") {
+                        b.style.display = "block";
+                    } else {
+                        b.style.display = "none";
+                    }
+
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var c = document.getElementById("myLinks-2020").style.display = 'none';
+
+                function myFunction003() {
+                    var c = document.getElementById("myLinks-2020");
+                    if (c.style.display === "none") {
+                        c.style.display = "block";
+                    } else {
+                        c.style.display = "none";
+                    }
+                }
+            </script>
+
+            <label class="texto-nome-manutencao"> Grupos Parceiros/Colaboradores</label>
+            <div class="centralizar-elementos-pc">
+                <div class="esquedizar-elementos-pc">
+                    <br><br><label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> Grupo A - Estudo A - 2020 </a> </label>
+                    <label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> Grupo B - Estudo B - 2021 </a> </label>
+                    <label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> Grupo C - Estudo C - 2022 </a> </label>
+
+                    <br><label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> ngeaalc.uneb@gmail.com </a> </label>
+                    <label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> ngeaalc.uneb@gmail.com </a> </label>
+                    <label class="texto-contato-mobile-1 texto-contato-pc-1">Entre em contato pelo nosso e-mail:<a class="link-colaboradores" href="mailto:ngeaalc.uneb@gmail.com"> ngeaalc.uneb@gmail.com </a> </label>
+                </div>
+            </div>
+            <br><br><br>
+
             <!-- DIV Volte ao Topo -->
             <div class="rodape-cor">
                 <footer class="menu-r-topo">

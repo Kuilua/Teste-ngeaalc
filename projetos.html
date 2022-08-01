@@ -7,19 +7,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Icone da aba -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/icone-aba/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="../img/icone-aba/android-chrome-512x512.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="../img/icone-aba/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/icone-aba/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/icone-aba/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icone-aba/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/icone-aba/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/img/icone-aba/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icone-aba/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icone-aba/favicon-16x16.png">
     <!-- CSS ORIGINAL - NAO MEXA AQUI - Icone da aba -->
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Tamanho da guia no PC -->
-    <link rel="stylesheet" type="text/css" href="../css/pc-style.css">
+    <link rel="stylesheet" type="text/css" href="css/pc-style.css">
     <!-- Tamanho da guia no Mobile -->
-    <link rel="stylesheet" type="text/css" href="../css/mobile-style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile-style.css">
     <!-- Tamanho da guia no Tablet -->
-    <link rel="stylesheet" type="text/css" href="../css/tablet-style.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet-style.css">
     <!-- Animaçao dos elementos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Icone Hamburger -->
@@ -52,6 +52,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- HIDE AND SHOW - MENU -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Fundo da Pagina -->
     <!-- <a href="https://br.freepik.com/fotos-vetores-gratis/fundo">Fundo vetor criado por 0melapics - br.freepik.com</a> -->
     <!-- Titulo da Pagina -->
@@ -62,47 +64,52 @@
 <body>
     <div class="fundo-inicio">
 
+        <section id=" "></section>
+
         <div class="menu-mobile">
             <!-- Menu Mobile -->
             <div class="topnav">
-                <a href="index.html" class="active texto-nome-mobile">NGEAALC</a>
+                <a href="index.html" class="active"><label class="texto-titulo-mobile-menu">NGEAALC</label></a>
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks-MenuPrincipal">
                     <li class="texto-menu-opcoes">
-                        <a href="index.html"> <i class="fas fa-home"></i></i>
-                            <p></p>Butula</a>
+                        <a href="index.html">
+                            <label class="texto-menu-mobile"> <i class="fas fa-home"></i><br> Butula</label></a>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalNgeaalc()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
+                    <li class="texto-menu-opcoes">
+                        <a href="javascript:void(0);" onclick="MenuPrincipalNgeaalc()"> <label class="texto-menu-mobile"><i class="fas fa-users icon"></i> <br> O Ngeaalc</label></a>
                         <div id="myLinks-MenuPrincipal-Ngeaalc">
                             <ul>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/apresentacao.html">Apresentação</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/pesquisadores.html">Pesquisadores</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/estudantes.html">Estudantes</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/tecnicos.html">Técnicos</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/internacionais.html">Colaboradores Internacionais</a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/apresentacao.html"><label class="texto-menu-mobile">Apresentação</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/pesquisadores.html"><label class="texto-menu-mobile">Pesquisadores</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/estudantes.html"><label class="texto-menu-mobile">Estudantes</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/tecnicos.html"><label class="texto-menu-mobile">Técnicos</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/internacionais.html"><label class="texto-menu-mobile">Colaboradores Internacionais</label></a></li>
 
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/estatuto.html">Estatuto</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/regimento.html">Regimento</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/linhas-de-pesquisas.html">Linhas de Pesquisas</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/instituicoes-parceiras.html">Instituições Parceiras</a></li>
-                                <li class="menu-h-mobile"><a href="o-ngeaalc/egresso.html">Egressos</a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/estatuto.html"><label class="texto-menu-mobile">Estatuto</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/regimento.html"><label class="texto-menu-mobile">Regimento</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/linhas-de-pesquisas.html"><label class="texto-menu-mobile">Linhas de Pesquisas</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/instituicoes-parceiras.html"><label class="texto-menu-mobile">Instituições Parceiras</label></a></li>
+                                <li class="menu-h-mobile"><a href="o-ngeaalc/egresso.html"><label class="texto-menu-mobile">Egressos</label></a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="projetos.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
-                    <li class="texto-menu-opcoes"> <a href="eventos.html"><i class="fas fa-chalkboard-teacher"></i><p></p>Eventos</a> </li>
-                    <li class="texto-menu-opcoes"> <a href="revista.html"><i class="fas fa-newspaper"></i><p></p>Revista</a> </li>
-                    <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalPublicacoes()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
+                    <li class="texto-menu-opcoes"> <a href="projetos.html"><label class="texto-menu-mobile"><i class="fas fa-book"></i> <br> Projetos</label></a> </li>
+                    <li class="texto-menu-opcoes"> <a href="eventos.html"><label class="texto-menu-mobile"><i class="fas fa-chalkboard-teacher"></i> <br> Eventos</label></a> </li>
+                    <li class="texto-menu-opcoes"> <a href="revista.html"><label class="texto-menu-mobile"><i class="fas fa-newspaper"></i> <br> Revista</label></a> </li>
+                    <li class="texto-menu-opcoes">
+                        <a href="javascript:void(0);" onclick="MenuPrincipalPublicacoes()"> <label class="texto-menu-mobile"><i class="fas fa-chalkboard-teacher"></i> <br> Publicações</label></a>
                         <div id="myLinks-MenuPrincipal-Publicacoes">
                             <ul>
-                                <li class="menu-h-mobile"><a href="publicacoes/artigos.html">Artigos</a></li>
-                                <li class="menu-h-mobile"><a href="publicacoes/livros.html">Livros</a></li>
-                                <li class="menu-h-mobile"><a href="publicacoes/teses.html">Teses</a></li>
-                                <li class="menu-h-mobile"><a href="publicacoes/outras-producoes.html">Outras Produções</a></li>
+                                <li class="menu-h-mobile"><a href="publicacoes/artigos.html"><label class="texto-menu-mobile">Artigos</label></a></li>
+                                <li class="menu-h-mobile"><a href="publicacoes/livros.html"><label class="texto-menu-mobile">Livros</label></a></li>
+                                <li class="menu-h-mobile"><a href="publicacoes/teses.html"><label class="texto-menu-mobile">Teses</label></a></li>
+                                <li class="menu-h-mobile"><a href="publicacoes/outras-producoes.html"><label class="texto-menu-mobile">Outras Produções</label></a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="texto-menu-opcoes"> <a href="contato.html"><i class="fas fa-mail-bulk"></i><p></p>Contato</a> </li>
+
+                    <li class="texto-menu-opcoes"> <a href="contato.html"><label class="texto-menu-mobile"><i class="fas fa-mail-bulk"></i> <br> Contato</label></a> </li>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="MenuPrincipalFuncao()">
@@ -154,12 +161,9 @@
             }
         </script>
         <!-- FIM - FUNCOES DO MENU  -->
-
-
         <!-- Corpo da pagina - Adicionar Elementos AQUI -->
-        <div class="centralizar-texto-corpo-inicio">
-            <br>
-            <div class="apagar-texto-mobile"><br>
+        <div class="centralizar-texto-corpo-inicio"><br>
+            <div class="apagar-texto-mobile">
                 <div class="menu-r-topo-1">
 
                     <label>   </label>
@@ -174,11 +178,7 @@
                     <div class="nome-site">
                         <label class="texto-nome-principal-1"> NGEAALC </label>
                         <div>
-                            <label class="texto-nome-principal"> NÚCLEO DE</label>
-                            <label class="texto-nome-principal">ESTUDOS  </label>
-                            <label class="texto-nome-principal">AFRICANOS E </label>
-                            <label class="texto-nome-principal">AFRO-BRASILEIROS  EM </label>
-                            <label class="texto-nome-principal">LÍNGUAS </label> <label class="texto-nome-principal">E CULTURAS </label>
+                            <p class="texto-nome-principal"> NÚCLEO DE ESTUDOS AFRICANOS E AFRO-BRASILEIROS EM LÍNGUAS E CULTURAS</p>
                         </div>
                     </div>
                     <!-- LOGO NGEAALC -->
@@ -196,6 +196,7 @@
                 </div>
             </div>
 
+            <!-- Menu PC -->
             <div class="mobile-corpo">
                 <header class="menu-principal animate__animated animate__fadeIn">
                     <!-- animate__animated animate__slideInLeft  -->
@@ -205,7 +206,7 @@
                                 <a href="index.html"> <i class="fas fa-home"></i></i>
                                     <p></p>Butula</a>
                             </li>
-                            <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction2()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
+                            <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalNgeaalc()"><i class="fas fa-users icon" ></i><p></p>O Ngeaalc</a>
                                 <div id="myLinks2">
                                     <ul>
                                         <li class="menu-h-mobile"><a href="o-ngeaalc/apresentacao.html">Apresentação</a></li>
@@ -225,7 +226,7 @@
                             <li class="texto-menu-opcoes"> <a href="projetos.html"><i class="fas fa-book"></i><p></p>Projetos</a> </li>
                             <li class="texto-menu-opcoes"> <a href="eventos.html"><i class="fas fa-chalkboard-teacher"></i><p></p>Eventos</a> </li>
                             <li class="texto-menu-opcoes"> <a href="revista.html"><i class="fas fa-newspaper"></i><p></p>Revista</a> </li>
-                            <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction3()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
+                            <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="MenuPrincipalPublicacoes()"><i class="fas fa-chalkboard-teacher"></i><p></p>Publicações</a>
                                 <div id="myLinks3">
                                     <ul>
                                         <li class="menu-h-mobile"><a href="publicacoes/artigos.html">Artigos</a></li>
@@ -238,15 +239,202 @@
                             <li class="texto-menu-opcoes"> <a href="contato.html"><i class="fas fa-mail-bulk"></i><p></p>Contato</a> </li>
             </div>
 
-            <label class="animate__animated animate__fadeInLeft texto-titulo-pc texto-titulo-mobile">PROJETOS</label>
+            <label class="animate__animated animate__fadeInLeft titulo-principal texto-titulo-mobile">Projetos - NGEAALC</label> <br>
+            <!-- CAIXA ESQUERDA DA PAGINA INICIAL - INLINE -->
 
-            <div class="div-manutencao">
-                <label class="texto-nome-manutencao"> EM </label>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
 
-                <img class="manutencao" src="../img/plano-manutencao.webp">
-
-                <label class="texto-nome-manutencao"> MANUTENÇÃO </label>
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction2022()"><label class="texto-projetos"> Prof Hildete Santos Pita Costa &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2022">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
             </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction002()"><label class="texto-projetos"> Prof Mille Caroline Rodrigues Fernandes &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2021">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-download">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction003()"><label class="texto-projetos"> XXX &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2020">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction004()"><label class="texto-projetos"> NGEEALC - Evento  &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2019">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction005()"><label class="texto-projetos"> Categorias - Diversas &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2018">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction006()"><label class="texto-projetos">2017 &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2017">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="ano-publicacao centralizar-elementos-pc centralizar-elementos-mobile">
+                <li class="texto-publicacao"><a href="javascript:void(0);" onclick="myFunction007()"><label class="texto-publicacao">2016 &nbsp; <i class="fas fa-caret-down"></i></label></a>
+                    <div id="myLinks-2016">
+                        <ul>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Americanah, de Chimamanda Ngozi Adichie</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> O primeiro amor é sempre o último, de Tahar Ben Jelloun</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Desonra, de J. M. Coetzee</label> </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Death and the King’s Horseman, de Wole Soyinka</label>  </a></li>
+                            <li class="ano-publicacao-dentro"><a class="texto-publicacao-itens" href="javascript:void(0);" onclick="myFunction000()"><i class="fas fa-file-pdf">&nbsp;</i><label class="texto-publicacao-2"> Luuanda, de Luandino Vieira</label> </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var a = document.getElementById("myLinks-2022").style.display = 'none';
+
+                function myFunction2022() {
+                    var a = document.getElementById("myLinks-2022");
+                    if (a.style.display === "block") {
+                        a.style.display = "none";
+                    } else {
+                        a.style.display = "block";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var b = document.getElementById("myLinks-2021").style.display = 'none';
+
+                function myFunction002() {
+                    var b = document.getElementById("myLinks-2021");
+                    if (b.style.display === "none") {
+                        b.style.display = "block";
+                    } else {
+                        b.style.display = "none";
+                    }
+
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var c = document.getElementById("myLinks-2020").style.display = 'none';
+
+                function myFunction003() {
+                    var c = document.getElementById("myLinks-2020");
+                    if (c.style.display === "none") {
+                        c.style.display = "block";
+                    } else {
+                        c.style.display = "none";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var d = document.getElementById("myLinks-2019").style.display = 'none';
+
+                function myFunction004() {
+                    var d = document.getElementById("myLinks-2019");
+                    if (d.style.display === "none") {
+                        d.style.display = "block";
+                    } else {
+                        d.style.display = "none";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var e = document.getElementById("myLinks-2018").style.display = 'none';
+
+                function myFunction005() {
+                    var e = document.getElementById("myLinks-2018");
+                    if (e.style.display === "none") {
+                        e.style.display = "block";
+                    } else {
+                        e.style.display = "none";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var f = document.getElementById("myLinks-2017").style.display = 'none';
+
+                function myFunction006() {
+                    var f = document.getElementById("myLinks-2017");
+                    if (f.style.display === "none") {
+                        f.style.display = "block";
+                    } else {
+                        f.style.display = "none";
+                    }
+                }
+            </script>
+
+            <script>
+                // Setando a variavel para que o elemento nao apareça em tela ate que o botao seja cliclado - Função-Publicacoes
+                var g = document.getElementById("myLinks-2016").style.display = 'none';
+
+                function myFunction007() {
+                    var g = document.getElementById("myLinks-2016");
+                    if (g.style.display === "none") {
+                        g.style.display = "block";
+                    } else {
+                        g.style.display = "none";
+                    }
+                }
+            </script>
+
             <br>
             <!-- DIV Volte ao Topo -->
             <div class="rodape-cor">
