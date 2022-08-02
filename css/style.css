@@ -69,6 +69,12 @@
                 font-size: 12px;
             }
             
+            .ab-1-1 {
+                margin-left: 4.9rem;
+                color: white;
+                font-size: 12px;
+            }
+            
             .ab-2 {
                 margin-left: 10%;
                 color: white;
@@ -981,4 +987,15 @@
                 margin-right: 2vh;
                 margin-top: 2vh;
                 margin-bottom: 2vh;
+            }
+            
+            .div-around {
+                justify-content: space-between;
+                position: relative;
+            }
+            
+            .div-apresentacao {
+                display: grid;
+                align-items: center;
+                justify-content: center;
             }
